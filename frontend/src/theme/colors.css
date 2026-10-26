@@ -1,0 +1,71 @@
+/* ========================================
+   PRIMARY BACKGROUNDS
+======================================== */
+
+.bg-primary {
+  background: var(--bg-primary);
+}
+
+.bg-secondary {
+  background: var(--bg-secondary);
+}
+
+.bg-surface {
+  background: var(--bg-surface);
+}
+
+/* ========================================
+   TEXT
+======================================== */
+
+.text-primary {
+  color: var(--text-primary);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+/* ========================================
+   ACCENT
+======================================== */
+
+.text-accent {
+  color: var(--accent-primary);
+}
+
+.bg-accent {
+  background: var(--accent-primary);
+}
+
+.border-accent {
+  border-color: var(--accent-primary);
+}
+
+/* ========================================
+   STATUS
+======================================== */
+
+.text-success {
+  color: var(--success);
+}
+
+.text-warning {
+  color: var(--warning);
+}
+
+.text-danger {
+  color: var(--danger);
+}
+
+/* ========================================
+   BORDER
+======================================== */
+
+.border-default {
+  border: 1px solid var(--border-color);
+}

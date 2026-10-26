@@ -1,0 +1,17 @@
+@import "../theme/theme.css";
+@import "./reset.css";
+@import "./utilities.css";
+
+body{
+
+    background:var(--bg-primary);
+    color:var(--text-primary);
+
+    font-family:var(--font-body);
+
+    min-height:100vh;
+
+    overflow-x:hidden;
+
+    -webkit-font-smoothing:antialiased;
+}
