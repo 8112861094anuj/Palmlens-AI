@@ -1,0 +1,55 @@
+.scan-page{
+
+    padding:80px 0;
+
+}
+
+.scan-container{
+
+    width:min(var(--container-width),92%);
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:64px;
+
+    align-items:center;
+
+}
+
+.scan-left h1{
+
+    margin-bottom:20px;
+
+}
+
+.scan-left p{
+
+    margin-bottom:32px;
+
+    color:var(--text-secondary);
+
+}
+
+.scan-buttons{
+
+    display:flex;
+
+    gap:16px;
+
+    flex-wrap:wrap;
+
+}
+
+@media(max-width:900px){
+
+.scan-container{
+
+grid-template-columns:1fr;
+
+}
+
+}

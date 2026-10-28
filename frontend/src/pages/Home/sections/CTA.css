@@ -1,0 +1,35 @@
+.cta{
+
+    padding:120px 0;
+
+    text-align:center;
+
+}
+
+.cta h2{
+
+    margin-bottom:20px;
+
+}
+
+.cta p{
+
+    max-width:700px;
+
+    margin:0 auto 36px;
+
+    color:var(--text-secondary);
+
+}
+
+.cta-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+
+}

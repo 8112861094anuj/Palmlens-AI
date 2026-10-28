@@ -1,0 +1,45 @@
+.faq{
+
+    padding:96px 0;
+
+}
+
+.faq h2{
+
+    text-align:center;
+
+    margin-bottom:56px;
+
+}
+
+.faq-list{
+
+    display:grid;
+
+    gap:24px;
+
+}
+
+.faq-card{
+
+    background:var(--bg-secondary);
+
+    border:1px solid var(--border-color);
+
+    border-radius:var(--radius-lg);
+
+    padding:28px;
+
+}
+
+.faq-card h3{
+
+    margin-bottom:12px;
+
+}
+
+.faq-card p{
+
+    color:var(--text-secondary);
+
+}

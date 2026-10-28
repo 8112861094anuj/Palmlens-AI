@@ -1,0 +1,15 @@
+export const ROUTES = {
+  HOME: "/",
+  LOGIN: "/login",
+  REGISTER: "/register",
+  SCAN: "/scan",
+  ANALYSIS: "/analysis",
+  REPORT: "/report",
+  CHAT: "/future-chat",
+  WALLET: "/wallet",
+  HISTORY: "/history",
+  PROFILE: "/profile",
+  SETTINGS: "/settings",
+  PRIVACY: "/privacy-policy",
+  TERMS: "/terms-and-conditions",
+};

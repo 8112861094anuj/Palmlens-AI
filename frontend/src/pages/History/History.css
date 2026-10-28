@@ -1,0 +1,21 @@
+.simple-page{
+
+    padding:80px 0;
+
+}
+
+.simple-container{
+
+    width:min(900px,92%);
+
+    margin:auto;
+
+}
+
+.simple-container p{
+
+    color:var(--text-secondary);
+
+    margin-top:16px;
+
+}

@@ -1,0 +1,131 @@
+.btn{
+
+    min-height:54px;
+
+    padding:0 28px;
+
+    border-radius:10px;
+
+    border:1px solid transparent;
+
+    cursor:pointer;
+
+    font-size:0.96rem;
+
+    font-weight:600;
+
+    letter-spacing:.4px;
+
+    transition:all .25s ease;
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
+
+    user-select:none;
+
+}
+
+/* ================= PRIMARY ================= */
+
+.btn-primary{
+
+    color:#F8F4EA;
+
+    border:1px solid #8B6422;
+
+    background:
+        linear-gradient(
+            180deg,
+            #C79A47 0%,
+            #B48736 18%,
+            #A77A2A 55%,
+            #f8cd88 100%
+        );
+
+    box-shadow:
+        inset 0 1px rgba(255,255,255,.28),
+        inset 0 -2px rgba(0,0,0,.18),
+        0 8px 20px rgba(0,0,0,.20);
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.btn-primary:hover{
+
+    background:
+        linear-gradient(
+            180deg,
+            #D5A854 0%,
+            #C79740 18%,
+            #B48736 55%,
+            #e5ad4b 100%
+        );
+
+    transform:translateY(-2px);
+
+    box-shadow:
+        inset 0 1px rgba(255,255,255,.35),
+        inset 0 -2px rgba(0,0,0,.15),
+        0 14px 28px rgba(0,0,0,.28);
+
+}
+
+.btn-primary:active{
+
+    transform:translateY(1px);
+
+    background:#956C23;
+
+}
+
+/* ================= SECONDARY ================= */
+
+.btn-secondary{
+
+    background:transparent;
+
+    color:#D8BE82;
+
+    border:1px solid #8B6422;
+
+}
+
+.btn-secondary:hover{
+
+    background:rgba(167,122,42,.08);
+
+    border-color:#C89945;
+
+    color:#F0D99D;
+
+    transform:translateY(-2px);
+
+}
+
+.btn-secondary:active{
+
+    transform:translateY(1px);
+
+}
+
+/* ================= DISABLED ================= */
+
+.btn:disabled{
+
+    opacity:.55;
+
+    cursor:not-allowed;
+
+    transform:none;
+
+    box-shadow:none;
+
+}

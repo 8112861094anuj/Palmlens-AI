@@ -1,0 +1,7 @@
+.app-container{
+
+    width:min(var(--container-width),92%);
+
+    margin-inline:auto;
+
+}

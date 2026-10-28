@@ -1,0 +1,57 @@
+.how-it-works{
+
+    padding:96px 0;
+
+}
+
+.how-it-works h2{
+
+    text-align:center;
+
+    margin-bottom:56px;
+
+}
+
+.steps{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+    gap:24px;
+
+}
+
+.step-card{
+
+    padding:28px;
+
+    border:1px solid var(--border-color);
+
+    background:var(--bg-secondary);
+
+    border-radius:var(--radius-lg);
+
+}
+
+.step-card span{
+
+    color:var(--accent-primary);
+
+    font-size:2rem;
+
+    font-family:var(--font-heading);
+
+}
+
+.step-card h3{
+
+    margin:16px 0;
+
+}
+
+.step-card p{
+
+    color:var(--text-secondary);
+
+}
